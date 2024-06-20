@@ -1,0 +1,30 @@
+2024-06-15
+Mood: happy
+Health: headache
+Prompt: What is the best part of your day so far?
+Journal: breakfast in bed
+
+2024-06-15
+Mood: happy
+Health: headache
+Prompt: How do you feel today?
+Journal: tired but otherwise pretty good
+
+2024-06-15
+Mood: happy
+Health: headache
+Prompt: How do you feel today?
+Journal: sore back but otherwise not bad
+
+2024-06-15
+Mood: happy
+Health: headache and sore back
+Prompt: What goals did you have for today?
+Journal: I have to work on my shed and on my homework
+
+2024-06-17
+Mood: stressed
+Health: headache
+Prompt: What are you grateful for?
+Journal: finishing my day at work and getting back home
+
