@@ -1,6 +1,6 @@
 using System;
 
-// Program added functionality to add back words to the scripture by pressing space bar which will help the user if they want to 'go back' to help them remember the text.  This meets the exceed requirement to enhance the program to help the user with another way to remember the scripture.  This way they can go back and forth without starting the program over again once all words are hidden, they can just go backwards and add back words to help them remember what the verse(s) are.
+// Program added functionality to add back words to the scripture by pressing space bar which will help the user if they want to 'go back' to help them remember the text.  This meets the exceed requirement to enhance the program to help the user with another way to remember the scripture.  This way they can go back and forth without starting the program over again once all words are hidden, they can just go backwards and add back words to help them remember what the verse(s) are.  If space bar is pressed when no words are hidden, it will display a message that all words are visible.
 
 // I added functionality for the multiple verses to allow the second verse to start on a new line using a line break.  I ensured I was able to handle line breaks on both PC, old and new Mac systems.
 
@@ -51,7 +51,7 @@ class Program
             }
             else
             {
-                // Handle other key inputs
+                // Handle other key inputs other than 'enter' or 'space bar'
                 Console.Write(keyInfo.KeyChar);
                 string command = Console.ReadLine()?.ToLower(); // quit the program by typing quit.  handles uppercase.
                 command = keyInfo.KeyChar + command;

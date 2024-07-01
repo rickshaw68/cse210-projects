@@ -4,7 +4,7 @@ public class Reference
     private int _chapter;
     private int _verse;
     private int _endVerse;
-    private string[] _scriptureTexts;
+    private string[] _scriptureTexts; //[]to allow 2nd verse to start on a new line
 
     public Reference(string book, int chapter, int verse, string scriptureText)
     {
@@ -28,11 +28,11 @@ public class Reference
     {
         if (_verse == _endVerse)
         {
-            return $"{_book} {_chapter}:{_verse}";
+            return $"{_book} {_chapter}:{_verse}"; //single verse
         }
         else
         {
-            return $"{_book} {_chapter}:{_verse}-{_endVerse}";
+            return $"{_book} {_chapter}:{_verse}-{_endVerse}";//multiple verses
         }
     }
 
