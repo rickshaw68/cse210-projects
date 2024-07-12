@@ -1,0 +1,5 @@
+160
+Simple;eat better;no fast food;30;True
+Eternal;Take walks;walk 20 minutes every day;20
+Checklist;Gym;Go to the gym 3 times a week;30;1;4;200
+Checklist;Homework;Spend 4 hours per day on school work;20;4;10;500
