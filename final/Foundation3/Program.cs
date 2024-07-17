@@ -9,7 +9,7 @@ class Program
         Address address3 = new Address("4 Privet Drive", "Little Whinging", "Surrey", "England");
         
         Lecture lecture = new Lecture("Your Dreams", "How To Manipulate Your Dreams", "2024-10-31", "12:00 AM", address1, "Freddy Krueger", 230);
-        Reception reception = new Reception("Networking Event", "Meet and greet with industry professionals", "2024-09-02", "6:00 PM", address2, "rsvp@johnwick.com");
+        Reception reception = new Reception("Knives Out Event", "Meet and greet with industry professionals", "2024-09-02", "6:00 PM", address2, "rsvp@johnwick.com");
         OutdoorGathering outdoorGathering = new OutdoorGathering("Hosting A Gathering", "A Back Yard BBQ and Quidditch match for Friends And Family", "2024-09-03", "11:00 AM", address3, "Sunny, Sunny, and more Sun");
         
         DisplayEventDetails(lecture);

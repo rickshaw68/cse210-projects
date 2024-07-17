@@ -3,7 +3,7 @@ public class OutdoorGathering : Event
     private string _weatherForecast;
 
     public OutdoorGathering(string title, string description, string date, string time, Address address, string weatherForecast)
-        : base(title, description, date, time, address)
+        : base(title, description, date, time, address) //getting info from the Event class
     {
         _weatherForecast = weatherForecast;
     }

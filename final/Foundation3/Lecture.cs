@@ -4,12 +4,11 @@ public class Lecture : Event
     private int _capacity;
 
     public Lecture(string title, string description, string date, string time, Address address, string speaker, int capacity)
-        : base(title, description, date, time, address)
+        : base(title, description, date, time, address) //pulling info from the Event class.
     {
         _speaker = speaker;
         _capacity = capacity;
     }
-
     public override string FullDetails()
     {
         return $"{StandardDetails()}\nType: Lecture\nSpeaker: {_speaker}\nCapacity: {_capacity}";

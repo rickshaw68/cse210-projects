@@ -6,7 +6,7 @@ public abstract class Event
     private string _time;
     private Address _address;
 
-    protected string Title => _title;
+    protected string Title => _title; //this is probably not necessary but I wanted to keep the variables private and giving read only access in these lines.
     protected string Description => _description;
     protected string Date => _date;
     protected string Time => _time;
