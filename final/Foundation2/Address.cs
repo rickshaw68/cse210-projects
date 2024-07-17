@@ -13,7 +13,7 @@ public class Address
         _country = country;
     }
 
-    public string StreetAddress => _streetAddress; // I did this read only variable to keep the private _**** variables as private.  I guess I could have set it to 'protected' but the assignment said to make it private
+    public string StreetAddress => _streetAddress; //I did this read only variable to keep the private _**** variables as private.  I guess I could have set it to 'protected' but the assignment said to make it private
     public string City => _city;
     public string StateProvince => _stateProvince;
     public string Country => _country;
